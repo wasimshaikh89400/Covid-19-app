@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-block: 10px;
+  padding-left: 20px;
+  font-family: "Acme", sans-serif;
+}

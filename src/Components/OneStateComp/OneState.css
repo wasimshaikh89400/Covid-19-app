@@ -1,0 +1,40 @@
+select {
+  height: 35px;
+  font-size: 1.2em;
+  border: 2px solid rgb(15, 105, 223);
+  outline: none;
+  border-radius: 5px;
+}
+
+.selectBox {
+  padding-left: 45px;
+}
+.warning div div {
+  width: 94%;
+  background-color: red;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-inline: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  animation: hide 5s infinite;
+}
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .selectBox {
+    padding-left: 3%;
+  }
+}

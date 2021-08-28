@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+.tableData {
+  color: transparent;
+  text-shadow: 0px 0px 5px gray;
+  user-select: none;
+}
+.table {
+  background-color: rgba(0, 10, 23, 0.9);
+  color: beige;
+  width: 95%;
+  margin-inline: auto;
+  text-align: center;
+  border-collapse: collapse;
+  font-family: "Cabin", sans-serif;
+}
+.table thead tr {
+  background-color: rgba(0, 43, 23, 0.8);
+  color: beige;
+}
+.table thead tr th {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.table tr td {
+  padding: 7px;
+  border: 1px solid white;
+}
+.sec tr td {
+  color: beige;
+}
+
+.table tr:hover {
+  background-color: rgba(0, 43, 23, 1);
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .table thead tr th {
+    font-size: 0.7rem;
+  }
+  .table {
+    width: 400px;
+  }
+  .table tr td {
+    font-size: 0.7rem;
+  }
+}

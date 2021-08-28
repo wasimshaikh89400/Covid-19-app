@@ -1,0 +1,33 @@
+.testTable table {
+  color: white;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+
+.testTable table {
+  background-color: rgba(0, 10, 23, 0.9);
+  color: beige;
+  border-collapse: collapse;
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+}
+.testTable table thead tr {
+  background-color: rgba(0, 43, 23, 0.8);
+  width: 600px;
+}
+
+.testTable table thead tr th {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.testTable table tr td {
+  padding: 7px;
+  border: 1px solid white;
+  width: 300px;
+}
+
+.testTable table tr td:hover {
+  background-color: rgba(0, 43, 23, 0.8);
+  cursor: pointer;
+}

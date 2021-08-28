@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Francois+One&display=swap");
+.box {
+  margin-top: 30px;
+  border-radius: 15px;
+  margin-block: 50px;
+  font-family: "Francois One", sans-serif;
+  letter-spacing: 1px;
+}
+.box div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+.box div div:nth-child(1) {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.box div div:nth-child(2) {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.box div:hover {
+  width: 90%;
+  padding-block: 10px;
+}
+
+.box div:hover div:nth-child(1) {
+  font-size: 1.5rem;
+}
+.box1 div {
+  background: linear-gradient(-180deg, orange, white, green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box2 div {
+  background: linear-gradient(-45deg, orange, rgb(236, 196, 122), orange);
+}
+
+.box3 div {
+  background: linear-gradient(
+    -45deg,
+    rgb(245, 81, 245),
+    rgb(245, 180, 245),
+    violet
+  );
+}
+
+.box4 div {
+  background: linear-gradient(-45deg, green, rgb(137, 211, 137), green);
+}
+
+.box5 div {
+  background: linear-gradient(-45deg, red, rgb(245, 167, 167), red);
+}
+
+.box6 div {
+  background: linear-gradient(-45deg, blue, rgb(172, 172, 250), blue);
+}
+
+.box7 div {
+  background: linear-gradient(-45deg, brown, rgb(247, 146, 146), brown);
+}
+.box8 div {
+  background: linear-gradient(-45deg, gold, rgb(240, 233, 193), gold);
+}
+
+@media screen and (max-width: 480px) {
+  .box div {
+    width: 95%;
+  }
+  .box {
+    margin-top: 10px;
+  }
+  .box1 div {
+    margin-top: -40px;
+  }
+  .box div div:nth-child(1) {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .box div div:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+}
